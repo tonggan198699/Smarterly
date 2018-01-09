@@ -3,6 +3,10 @@ This is the test the full stack developer position at Smarterly.
 
 All three parts of the test should be completed and should take no more than 30 minutes to an hour.
 
+You may Google any terms or methods you're unfamiler with but try not to copy and paste code, if you need to use others examples or solutions you should rewrite this code in your own way so that you understand it. 
+
+If any part of this test is tripping you up, move on, we'd rather see a you attempt at least some of all of the tasks. The most important is Part 4.
+
 ## Taking / Submitting the test
 In order to take this test you should clone this repository into a GitHub repository, DO NOT FORK as other applications will see your code. Once you have completed all the tasks you can either add `waxim` as a collaborator to the new repository or email a link to alan.cole@smarterly.co.uk
 
