@@ -43,7 +43,6 @@ Write a script that counts from 1 to n and outputs the number, except in the fol
 - If a number is divisible by 3 display "Fizz" instead.
 - If a number is divisible by 5 display "Buzz" instead.
 - If a number is divisible by 3 AND 5 display "FizzBuzz" instead.
-- Ignore all these conditions if the number is a prime. (e.g just display the number)
 
 An example run script might look like this. Obviously you're free to structure this library however you like and it doesn't need to match the example below unless you'd like it to.
 
@@ -57,3 +56,12 @@ foreach ($fizzbuzzer->run() as $number) {
 ```
 
 This task should be completed in the `fizzbuzz` folder. The library should be testable with the following command `$ ./vendor/bin/phpunit .`
+
+# Part 5 - Optional, only if time allows.
+Skipping this wont count against you but if you have time and would like you could make a modification to the FizzBuzz game above such that the game also follow this rule. 
+
+- Ignore all fizzbuzz conditions if the number is prime, just display the number instead.
+
+If you have time also look at a PHPUnit test for this condition. Again, this one is totally optional.
+
+Hint for this task, you could use an Euler Sieve.
