@@ -67,5 +67,3 @@ Skipping this wont count against you but if you have time and would like you cou
 - Ignore all fizzbuzz conditions if the number is prime, just display the number instead.
 
 If you have time also look at a PHPUnit test for this condition. Again, this one is totally optional.
-
-Hint for this task, you could use an Euler Sieve.
