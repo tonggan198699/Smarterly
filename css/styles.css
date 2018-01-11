@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+     position: absolute;
+    top: 75%;
+    left: 50.5%;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.circle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 8px solid white;
+  border-top-color: black;
+  animation: spinner .7s linear infinite;
+}
